@@ -1,0 +1,27 @@
+{
+  "name": "@pheasantplucker/influxdb",
+  "version": "1.0.1",
+  "description": "failables influxdb wrapper",
+  "main": "src/influxdb.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "esw .eslintrc.js src/ -w --fix --ignore-pattern !.eslintrc.js",
+    "deploy": "./deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pheasantplucker/failables": "^2.0.14",
+    "influx": "^5.0.7",
+    "ramda": "^0.25.0",
+    "uuid": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-watch": "^4.0.0",
+    "jest": "^23.2.0",
+    "prettier": "^1.13.6"
+  }
+}
